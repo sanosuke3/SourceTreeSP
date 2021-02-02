@@ -4,6 +4,7 @@
 namespace basecross {
 	void Block::OnCreate()
 	{
-
+		auto drawComp = AddComponent<PNTStaticDraw>();
+		drawComp->SetMeshResource(L"DEFAULT_CUBE");
 	}
 }
