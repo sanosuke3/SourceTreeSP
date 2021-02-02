@@ -9,6 +9,9 @@ namespace basecross {
 			:GameObject(stage)
 		{
 		}
+
+		void OnCreate() override;
+
 	};
 
 }

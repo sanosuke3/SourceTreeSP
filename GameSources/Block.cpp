@@ -2,5 +2,8 @@
 #include "Project.h"
 
 namespace basecross {
+	void Block::OnCreate()
+	{
 
+	}
 }
